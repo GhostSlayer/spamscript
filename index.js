@@ -13,7 +13,7 @@ setInterval(() => {
       adrs: fakerator.address.street(),
       holder: fakerator.names.name(),
       jijinum: creditCard,
-      jijiexp: Number(`0${fakerator.random.number(1, 9)}`),
+      jijiexp: `0${fakerator.random.number(1, 9)}`,
       jijiexp2: fakerator.random.number(22, 27),
       jijicod: fakerator.random.number(101, 999),
     }
