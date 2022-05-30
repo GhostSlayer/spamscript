@@ -18,7 +18,7 @@ setInterval(() => {
       jijicod: fakerator.random.number(101, 999),
     }
   })
-  .then(res => console.log(res))
+  .then(res => console.log(`Sent req to dos.php ${i=i+1}`))
   .catch(err => console.log(err.message))
 
   axios.get('https://www.itcostagrande.edu.mx/visitastotales/trackit/sent/tres.php', {
